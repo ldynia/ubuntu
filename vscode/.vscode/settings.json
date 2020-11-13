@@ -1,0 +1,13 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.flake8Args": ["--ignore=E303"],
+    "python.linting.flake8Enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.maxNumberOfProblems": 100,
+    "python.linting.pydocstyleEnabled": false,
+    "python.linting.pylintEnabled": false,
+    "python.linting.ignorePatterns": [
+        ".vscode/*.py",
+        "**/site-packages/**/*.py"
+    ],
+}
